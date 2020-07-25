@@ -1,0 +1,22 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui" >
+	<ui:style>
+	.bs{
+	    width:400px;
+	    align:center;
+	    }
+</ui:style>
+	<g:HTMLPanel>
+	<center>
+	 <h1>Admin Panel</h1><br></br>
+		<m:MaterialTextBox styleName="{style.bs}" label="Product" ui:field="t1" grid="s12"/>
+		 <m:MaterialTextBox styleName="{style.bs}" placeholder="brand" label="Brand" ui:field="t4"   active="true" />
+		
+ <m:MaterialTextBox styleName="{style.bs}" placeholder="number of items "  label="Quantity" ui:field="t2"    grid="s12"/>
+ <m:MaterialTextBox styleName="{style.bs}" placeholder="provide price" label="Price" ui:field="t3"   active="true" />
+  <m:MaterialButton text="Proceed" waves="LIGHT" size="LARGE" ui:field="b1"/>
+		</center>
+	</g:HTMLPanel>
+</ui:UiBinder> 

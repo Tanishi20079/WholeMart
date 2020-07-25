@@ -1,0 +1,15 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<d:MaterialImage url="http://krmangalam.edu.in/wp-content/uploads/2018/02/Teacher-login-icon.png" style="width:250px;height:200px" grid="s12" offset="s12"  type="CIRCLE" ui:field="i1"></d:MaterialImage>
+	<d:MaterialTextBox label="Username" iconType="ACCOUNT_CIRCLE" ui:field="t1"></d:MaterialTextBox>
+	<d:MaterialTextBox label="Password" iconType="LOCK" ui:field="t2"></d:MaterialTextBox>
+	<d:MaterialCheckBox text="Remember Me" value="false" type="FILLED" ui:field="c1"></d:MaterialCheckBox>
+	<d:MaterialButton text="LOGIN"  ui:field="b1"></d:MaterialButton>
+	<d:MaterialButton text="SIGN UP" backgroundColor="WHITE" textColor="BLACK" ui:field="b2"></d:MaterialButton>
+	</g:HTMLPanel>
+</ui:UiBinder> 

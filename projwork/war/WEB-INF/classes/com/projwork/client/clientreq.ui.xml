@@ -1,0 +1,54 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:d="urn:import:gwt.material.design.client.ui" 
+	xmlns:s="urn:import:gwt.material.design.addins.client.subheader">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel><d:MaterialNavBar>
+		<d:MaterialNavSection float="LEFT">
+		<d:MaterialLink text="Client Request" ui:field="t" textColor="WHITE" waves="LIGHT"/>
+		<d:MaterialLink text="Admin Panel" ui:field="tt" textColor="WHITE" waves="LIGHT"/>
+		<d:MaterialLink text="Report" ui:field="ttt" textColor="WHITE" waves="LIGHT"/>
+		</d:MaterialNavSection>
+		</d:MaterialNavBar>
+		<br></br>
+	<table>
+	<tr>
+	<td><d:MaterialLabel ui:field="l1" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l2" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l3" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l4" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l5" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l6" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l7" fontSize="2em"> </d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="t1" fontSize="3em" text="PRODUCT"></d:MaterialLabel></td>
+	<td><d:MaterialLabel ui:field="t2" fontSize="3em" text="QUANTITY"></d:MaterialLabel></td>
+   	<td><d:MaterialLabel ui:field="t3" fontSize="3em" text="PRICE"></d:MaterialLabel></td>
+	</tr>
+	<tr>
+	<td><d:MaterialLabel ui:field="l8" fontSize="2em"></d:MaterialLabel></td>
+	<td><d:MaterialLabel ui:field="l9" fontSize="2em"></d:MaterialLabel></td>
+	<td><d:MaterialLabel ui:field="l10" fontSize="2em"></d:MaterialLabel></td>
+	</tr>
+
+	<d:MaterialButton ui:field="b1" text="CONFIRM"></d:MaterialButton>
+	
+	</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 

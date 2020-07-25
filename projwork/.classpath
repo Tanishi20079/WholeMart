@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/JAR Files/gwt-material-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JAR Files/gwt-material-addins-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JAR Files/gwt-material-jquery-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JAR Files/gwt-material-table-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JAR Files/gwt-material-themes-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

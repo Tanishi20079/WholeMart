@@ -1,0 +1,85 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<d:MaterialRow>
+		<d:MaterialColumn grid="l4">
+		<d:MaterialCard backgroundColor="WHITE">
+		<d:MaterialCardImage waves="LIGHT">
+		<d:MaterialImage url="https://yt3.ggpht.com/a-/ACSszfFWPYjZ_uGygMrW7HmzcGhESp28dka3hEsOug=s900-mo-c-c0xffffffff-rj-k-no" style="width:250px;height:250px"/>
+		</d:MaterialCardImage>
+		<d:MaterialCardContent textColor="BLACK">
+		<d:MaterialLabel text="DOVE"/>
+		</d:MaterialCardContent>
+		<d:MaterialCardAction>
+		<d:MaterialButton text="CLICK HERE TO PROCEED" waves="DEFAULT" backgroundColor="BLUE" textColor="BLACK" ui:field="t1"/>
+		</d:MaterialCardAction>
+		</d:MaterialCard>
+		</d:MaterialColumn >
+		
+		
+		
+		
+		<d:MaterialColumn grid="l4">
+		<d:MaterialCard backgroundColor="WHITE">
+		<d:MaterialCardImage waves="LIGHT">
+		<d:MaterialImage url="http://loreal-dam-front-resources-corp-en-cdn.brainsonic.com/ressources/afile/2266-1ae80-picture_photo-looreal-logo.jpg" style="width:250px;height:250px"/>
+		</d:MaterialCardImage>
+		<d:MaterialCardContent textColor="BLACK">
+		<d:MaterialLabel text="LOREAL"/>
+		</d:MaterialCardContent>
+		<d:MaterialCardAction>
+		
+		<d:MaterialButton text="CLICK HERE TO PROCEED" waves="DEFAULT" backgroundColor="BLUE" textColor="BLACK" ui:field="t2"/>
+		
+		
+		</d:MaterialCardAction>
+		</d:MaterialCard>
+		</d:MaterialColumn >
+		
+		<d:MaterialColumn grid="l4">
+		<d:MaterialCard backgroundColor="WHITE">
+		<d:MaterialCardImage waves="LIGHT">
+		<d:MaterialImage url="data:image/png;base64,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" style="width:250px;height:250px"/>
+		</d:MaterialCardImage>
+		<d:MaterialCardContent textColor="BLACK">
+		<d:MaterialLabel text="TRESEMME"/>
+		</d:MaterialCardContent>
+		<d:MaterialCardAction>
+	
+		<d:MaterialButton text="CLICK HERE TO PROCEED" waves="DEFAULT" backgroundColor="BLUE" textColor="BLACK" ui:field="t3"/>
+		
+		
+		</d:MaterialCardAction>
+		</d:MaterialCard>
+		</d:MaterialColumn >
+		
+		
+		
+		
+		<d:MaterialColumn grid="l4">
+		<d:MaterialCard backgroundColor="WHITE">
+		<d:MaterialCardImage waves="LIGHT">
+		<d:MaterialImage url="http://logos-download.com/wp-content/uploads/2016/06/Sunsilk_logo_Co-Creations.png" style="width:250px;height:250px"/>
+		</d:MaterialCardImage>
+		<d:MaterialCardContent textColor="BLACK">
+		<d:MaterialLabel text="SUNSILK"/>
+		</d:MaterialCardContent>
+		<d:MaterialCardAction>
+	
+		<d:MaterialButton text="CLICK HERE TO PROCEED" waves="DEFAULT" backgroundColor="BLUE" textColor="BLACK" ui:field="t4"/>
+		
+		
+		</d:MaterialCardAction>
+		</d:MaterialCard>
+		</d:MaterialColumn >
+	
+		
+		</d:MaterialRow>
+		</g:HTMLPanel>
+</ui:UiBinder> 

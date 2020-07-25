@@ -1,0 +1,93 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:d="urn:import:gwt.material.design.client.ui" >
+	
+	
+	
+<g:HTMLPanel>
+
+		
+
+
+		<d:MaterialSection>
+		<d:MaterialSlider ui:field="z1">
+		<d:MaterialSlideItem ui:field="z6">
+
+<d:MaterialImage url="https://www.biotique.com/media/wysiwyg/july_offers.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+		
+		
+				<d:MaterialSlideItem ui:field="z2">
+<d:MaterialImage   url="https://www.carolsdaughter.com/on/demandware.static/-/Sites-carolsdaughter-us-Library/default/dwef6f1ffa/images/04_16_18_CocoCreme_2_DESKTOP.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+</d:MaterialSlideItem>
+
+<d:MaterialSlideItem ui:field="z3">
+<d:MaterialImage   url="https://www.meijer.com/assets/site/tiers/health-beauty/hair-care/shampoo/images/hero.jpg" />
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+<d:MaterialSlideItem ui:field="z4">
+<d:MaterialImage  url="http://dp.image-gmkt.com/dp2016/SG/GMKT.IMG/special/2016/09/22/5572f7a0-0a0e-4ed4-af44-3d6f09938845.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+<d:MaterialSlideItem ui:field="z5">
+<d:MaterialImage   url="https://nschmi.files.wordpress.com/2014/10/france.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+
+
+<d:MaterialSlideItem ui:field="z7">
+
+<d:MaterialImage   url="http://www.superdicasartvitta.com.br/wp-content/uploads/2017/02/banner-produto-Shampoo-com-SILSOFT-CLX-E.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+<d:MaterialSlideItem ui:field="z8">
+
+<d:MaterialImage  url="https://www.meijer.com/assets/site/tiers/health-beauty/hair-care/dry-shampoo/images/hero.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+
+<d:MaterialSlideItem ui:field="z9">
+
+<d:MaterialImage   url="https://img10.hkrtcdn.com/3386/bnr_338509_o.jpg"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+<d:MaterialSlideItem ui:field="z10">
+
+<d:MaterialImage   url="https://www.justmylook.com/images/modules/promo_units/1530538205-57012500.png"/>
+<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+
+
+<d:MaterialSlideItem ui:field="z11">
+
+<d:MaterialImage   url="https://beautifullyalive.org/wp-content/uploads/2018/01/clear-feature-4.jpg"/>
+		<d:MaterialSlideCaption>
+</d:MaterialSlideCaption>
+				</d:MaterialSlideItem>
+		
+				
+
+</d:MaterialSlider>
+</d:MaterialSection>
+</g:HTMLPanel>
+</ui:UiBinder> 
+
+

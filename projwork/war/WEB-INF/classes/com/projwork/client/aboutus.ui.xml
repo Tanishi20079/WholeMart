@@ -1,0 +1,23 @@
+
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<g:HTMLPanel>
+		<m:MaterialPanel>
+		
+		</m:MaterialPanel>	
+<p>One of the most common pages you see on web application is ABOUT US where its not just a place to list contact details,
+but also to you can describe our business to business relationship. We have developed this website to get ease of buying and 
+selling of varios products in a bulk amount at reasonable rates.</p>
+		
+<p>This website is for designing the decision making framework and operations easily used in wholesaling purpose to save time as well using 
+Hadoop Technology we are saving the data automatically.Bill will be designed according to selected products with GST included</p>
+		
+<p>Our site is providing you variable discount at variable products as well as this is reducing the paperwork and
+ B-B bargaining concept is fulfilling here.</p>
+
+<m:MaterialButton text="CONTACT US"  ui:field="b1" waves="LIGHT" iconType="PHONE" iconPosition="LEFT" size="LARGE"/>
+<m:MaterialImage url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhlZ2p-w2i0rYFUErcmAmigm6-bHI4yvEHZs36GieoMwMrnA-6XQ" ui:field="b6" style="width:200px;height:200px"></m:MaterialImage>
+	</g:HTMLPanel>
+</ui:UiBinder> 
